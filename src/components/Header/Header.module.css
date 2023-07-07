@@ -1,9 +1,19 @@
 .header {
     grid-area: h;
-    background-color: aqua;
+    background-color: #6b719b;
+    font-family: "Fight";
+    height: 53px;
 }
 
-.header img {
-
-    width: 200px;
+.logo {
+    display: inline-block;
+    line-height: 63px;
+    /*height: 80px;*/
+    font-size: 96px;
+    color: #232633;
 }
+
+/*.header img {*/
+/*    display: inline;*/
+/*    height: 80px;*/
+/*}*/

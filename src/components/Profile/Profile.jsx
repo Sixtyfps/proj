@@ -1,18 +1,12 @@
 import React from "react";
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile = () => {
+const Profile = (props) => {
     return <div>
-        <div>
-            <img
-                src="https://png.pngtree.com/illustrations/20190327/ourmid/pngtree-cure-starry-sky-night-sky-star-png-image_38228.jpg"
-                alt=""/>
-        </div>
-        <div>
-            avatar + description
-        </div>
-       <MyPosts/>
+        <ProfileInfo dialogsData={props.postsData}/>
+        <MyPosts postsData={props.postsData}/>
     </div>
 }
 

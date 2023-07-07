@@ -1,13 +1,24 @@
 .nav {
+    padding: 20px 0;
     grid-area: n;
-    background-color: burlywood;
+}
+
+.item {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 20px;
 }
 
 .item a {
-    color: white;
+    color: #9da5e0;
     text-decoration: none;
 }
 
-/*a.active {*/
-/*    color: gold;*/
-/*}*/
+a:hover {
+    color: #6b719b;
+}
+
+.item a.active {
+    color: #232633;
+}

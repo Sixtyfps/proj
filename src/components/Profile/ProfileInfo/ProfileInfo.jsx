@@ -1,8 +1,7 @@
 import React from "react";
-import s from './Profile.module.css';
-import MyPosts from "./MyPosts/MyPosts";
+import s from './ProfileInfo.module.css';
 
-const Profile = () => {
+const ProfileInfo = (props) => {
     return <div>
         <div>
             <img
@@ -12,8 +11,7 @@ const Profile = () => {
         <div>
             avatar + description
         </div>
-       <MyPosts/>
     </div>
 }
 
-export default Profile;
+export default ProfileInfo;
