@@ -15,6 +15,18 @@
     padding: 10px;
 }
 
-.message {
+.userContainer {
+    height: 80px;
+}
 
+.userImage {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.userName{
+    text-align: center;
+    display: inline-block;
 }
