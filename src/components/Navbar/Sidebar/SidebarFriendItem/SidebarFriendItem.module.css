@@ -1,0 +1,14 @@
+.friendItem {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.friendItem div{
+    color: #232633;
+}
+
+.friendItem img {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}

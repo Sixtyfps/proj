@@ -20,12 +20,16 @@ let state = {
             {id: 2, name: "Gonzaleoz", url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0PdfAyKta3P5XPweYEwrOYk49X8vy7GVgA&usqp=CAU"},
             {id: 3, name: "Parovoz", url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxuuRHvT1VhWnuWHJ5l4TGJA7fCPjlAPBLE1hIQkZnGwJaazdCiESvBqTzE3_nbG8TBk&usqp=CAU"},
             {id: 4, name: "Teremok", url: "https://www.thisiscolossal.com/wp-content/uploads/2022/10/pottelberg-7.jpg"},
-            {id: 5, name: "Jazzep", url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1ddheCLrLFuqO3MNSe8QJFCCHU_IOFnB6_GmfzOc7iTCl4VZEqzfgObfyLXvJwoB8MM&usqp=CAU"},
-            {id: 6, name: "Mullermilch", url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1ddheCLrLFuqO3MNSe8QJFCCHU_IOFnB6_GmfzOc7iTCl4VZEqzfgObfyLXvJwoB8MM&usqp=CAU"}
+            {id: 5, name: "Jazzep", url: "https://www.shutterbug.com/images/styles/600_wide/public/M%20Teaser.jpg"},
+            {id: 6, name: "Mullermilch", url: "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_fit,f_auto,h_480,q_auto,w_480/d_ecommerce:backend-fallback.png/MAT_940818_PCE_LV"}
         ]
     },
     sidebar: {
-
+        friends: [
+            {id: 1, name: "Olesha", imgUrl: "https://www.shutterbug.com/images/styles/600_wide/public/M%20Teaser.jpg"},
+            {id: 2, name: "Kolha", imgUrl: "https://www.shutterbug.com/images/styles/600_wide/public/M%20Teaser.jpg"},
+            {id: 3, name: "Skuma", imgUrl: "https://www.shutterbug.com/images/styles/600_wide/public/M%20Teaser.jpg"},
+        ]
     }
 
 }

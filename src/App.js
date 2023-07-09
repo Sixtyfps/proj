@@ -9,6 +9,7 @@ import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 //font
 import fight from "./Fonts/fight.ttf";
+import Sidebar from "./components/Navbar/Sidebar/Sidebar";
 
 const App = (props) => {
     return (
@@ -16,7 +17,8 @@ const App = (props) => {
             <Header />
             <div className='app-wrapper' >
 
-                <Navbar />
+                <Navbar sidebarData={props.state.sidebar}/>
+
                 <div className='app-wrapper-content'>
                     <Routes>
                         <Route path="/dialogs/*"

@@ -22,3 +22,26 @@ a:hover {
 .item a.active {
     color: #232633;
 }
+
+
+
+
+.sidebar {
+    /*background-color: #ced4fd;*/
+}
+
+.sidebarTitle h2{
+    color: #9da5e0;
+    margin: 50px 0 15px;
+}
+
+.friendItem {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.friendItem img {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
